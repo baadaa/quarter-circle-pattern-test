@@ -78,6 +78,7 @@ const shiftColor = () => {
 window.onload = () => {
   drawBoxes();
   scale();
+  setTimeout(morph, 200);
   interval = setInterval(morph, 3000);
 
   (function() {
@@ -106,4 +107,5 @@ window.onload = () => {
     morph();
   });
   document.addEventListener("click", shiftColor);
+  document.addEventListener("touchend", shiftColor);
 }
