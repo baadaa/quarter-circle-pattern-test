@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.item {
+  background: #EEE;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-transition: border-radius .5s, background-color .5s;
+  transition: border-radius .5s, background-color .5s;
+}
+/*# sourceMappingURL=styles.css.map */
